@@ -1,0 +1,134 @@
+@font-face {
+    font-family: OpenSans;
+    src: url('./opensans.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: OpenSans;
+    text-decoration: none;
+}
+a {
+    border:solid 2px #6F4E37;
+    background-color: #A67B5B;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+a:hover {
+    background-color: #6F4E37;
+}
+body {
+    background-color: #A67B5B;
+}
+ h2 {
+    text-align: center;
+    padding-bottom: 10px;
+ }
+header {
+    position:fixed;
+    width: 100%;
+    height: 6%;
+    top: 0;
+    z-index: 9999;
+}
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: solid 2px #6F4E37;
+    background-color: #ECB176;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+nav div {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 50px;
+}
+ul {
+    margin-top: 5px;
+}
+.home {
+    height: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.home div {
+    width: 80%;
+    border: solid 2px #6F4E37;
+    border-radius: 5px;
+    background: #ECB176;
+    padding: 50px;
+}
+
+.qoute {
+    width: 100%;
+    height: 235%;
+}
+.qoute div {
+    width: 80%;
+    border: solid 2px #6F4E37;
+    border-radius: 5px;
+    background-color: #ECB176;
+    padding: 5px;
+}
+
+.about {
+    height: 180%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.about div {
+    border: solid 3px #6F4E37;
+    border-radius: 5px;
+    width: 80%;
+    padding: 6px;
+    background-color: #ECB176;
+}
+.books {
+    width: 100%;
+    height: 240%;    
+    display: flex;
+    justify-content: center;
+}
+.books .container {
+    border: solid 2px #6F4E37;
+    border-radius: 5px;
+    width: 80%;
+    padding: 5px;
+    background-color: #ECB176;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4%;
+    margin-top: 50px;
+    gap: 10px;
+    height: 400%;
+}
+.books .container div {
+    border: solid 2px #6F4E37;
+    border-radius: 5px;
+    background-color: #FED8B1;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+.books .container div img:hover {
+    transform: scale(1.01);
+}
+
+#qoutebox {
+    background-color: #A67B5B;
+}

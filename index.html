@@ -1,0 +1,214 @@
+
+
+<html>
+<head>
+    <title>Wattpad Books Recommendations</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header>
+    <nav>
+     <div>
+        <ul><a href="#home">Home</a></ul>
+        <ul><a href="#about"> About</a></ul>
+       <ul><a href="#qoute">Quotes</a></ul>
+       <ul><a href="#books"> Books</a></ul>
+    </div>
+    </nav>
+</header> 
+
+<section id="home" class="home">
+    <div>
+        <h2>Home</h2>
+    <img src="./ogols.jpg" style="float:left;width: 200px;margin-right: 20px;">
+        <p>
+            Welcome to Wattpad Books Recommendations! <br><br>
+    
+            What is Wattpad?<br>
+           
+           Wattpad is a vibrant online platform where writers and readers from around the world come together to share and discover stories. Founded in 2006, Wattpad has grown into one of the largest social storytelling platforms, offering a unique space for authors to publish their works and for readers to explore a vast array of genres and styles.
+           <br><br>
+           A Global Community of Storytellers
+           <br><br>
+           At its core, Wattpad is about connection and community. With millions of users spanning over 50 languages, Wattpad brings together diverse voices and perspectives. Whether you're into romance, science fiction, fantasy, mystery, or any other genre, you'll find a story that resonates with you. Readers can interact with authors through comments, votes, and messages, fostering a dynamic and engaging reading experience.
+           <br><br>
+           Opportunities for Aspiring Writers
+           <br><br>
+           For aspiring writers, Wattpad offers an invaluable opportunity to reach a global audience. Writers can publish their stories chapter by chapter, receiving immediate feedback from readers. This interactive process not only helps writers improve their craft but also build a loyal following. Many successful authors started their journeys on Wattpad, and some have even secured book deals and adaptations for film and television.
+           <br><br>
+           Innovative Features
+           <br><br>
+           Wattpad is not just a platform for reading and writing; it's a comprehensive ecosystem designed to support creative storytelling.
+        </p>
+    
+    </div>    
+</section>
+<section id="qoute" class="qoute">
+     <center>
+    <div id="qoutelist">
+        <h2>Qoute</h2>
+      
+        
+
+    </div>
+</center>
+</section>
+<section id="about" class="about">
+    <div>
+        <h2>About</h2>
+        <p><br>About Wattpad Recommendations
+            <br><br>
+           <br> Welcome to  Wattpad Recommendations, your ultimate destination for discovering the best stories on Wattpad! Whether you're a seasoned Wattpad reader or new to the platform, our mission is to guide you through the vast world of Wattpad with curated recommendations that cater to every taste and interest.
+            <br><br>
+<br>            Who We Are
+            <br><br>
+            <br>        We are passionate readers and writers who believe in the power of storytelling. Our team is dedicated to exploring Wattpad's extensive library to bring you the hidden gems, popular hits, and rising stars of the community. From romance and fantasy to mystery and sci-fi, we cover a wide range of genres to ensure there's something for everyone.
+            <br><br>
+            <br>What We Offer
+            <br><br>
+            <br>- Curated Lists: Find carefully curated lists of top-rated Wattpad stories, categorized by genre, theme, and popularity.
+            <br>- Author Spotlights: Get to know the talented authors behind your favorite stories through exclusive interviews and features.
+            <br>- Book Reviews: Read in-depth reviews and analyses of trending Wattpad stories to help you decide what to read next.
+            <br>- Quotes and Excerpts: Enjoy a collection of memorable quotes and excerpts from some of the best Wattpad stories, capturing the essence of each tale.
+            <br>- Reader Community: Join our community of fellow Wattpad enthusiasts to discuss stories, share recommendations, and connect with like-minded readers.
+            <br><br>
+            Why We Do It
+            <br><br>
+            At Wattpad Recommendations, we believe that every story deserves to be heard and every reader deserves to find their next great read. Wattpad is a unique platform where aspiring writers and avid readers come together, and we aim to enhance that experience by making it easier to navigate and discover.
+            <br><br>
+            Join Us
+            <br><br>
+            Embark on your reading journey with us and dive into the captivating world of Wattpad. Follow us for regular updates, recommendations, and exclusive content. Whether you’re looking for heartwarming romances, thrilling adventures, or thought-provoking dramas, Wattpad Recommendations is here to guide you every step of the way.
+            <br><br>
+            Happy reading!
+            <br><br>
+            Contact Us
+            <br><br>
+            Have questions, suggestions, or want to share your favorite Wattpad stories with us? Feel free to reach out via our contact page. We’d love to hear from you!
+            <br><br>
+            ---</p>
+    </div>
+</section>
+
+<section id="books" class="books">
+    <div class="container">
+        <h2>Books</h2>
+    <div id="booklist">
+       </div>
+</div>
+</section>
+
+<script>
+let count = 1;
+var picturecount = 29;
+
+while(count < picturecount ){
+
+document.getElementById("booklist").innerHTML += `<img src='./pictures/ (${count}).jpg' id='book1' style='width:30%;height:600px; margin: 5px;'>`;
+
+count++;
+
+}
+
+let qoutes = [
+      {
+        "title": "Para sa Broken Hearted",
+        "author": "Marcelo Santos III",
+        "quote": "Ang buhay ay parang pelikula, lahat ng nangyayari ay may dahilan. Lahat ng sugat, may aral."
+      },
+      {
+        "title": "Wings of Deception",
+        "author": "Jonaxx",
+        "quote": "Sa buhay, hindi importante kung gaano ka kadalas matumba. Ang mahalaga, gaano ka kadalas bumangon."
+      },
+      {
+        "title": "He's Into Her",
+        "author": "Maxinejiji",
+        "quote": "Minsan ang mga bagay na nangyayari sa buhay natin, may dahilan kahit hindi pa natin maintindihan ngayon."
+      },
+      {
+        "title": "The Four Bad Boys and Me",
+        "author": "Blue_Maiden",
+        "quote": "Walang permanente sa mundo. Lahat nagbabago, lahat may katapusan."
+      },
+      {
+        "title": "This Time I'll Be Sweeter",
+        "author": "Aly Almario",
+        "quote": "Ang buhay ay isang malaking eksperimentong puno ng pagsubok. Pero tandaan mo, bawat pagkakamali, may natututunan tayo."
+      },
+      {
+        "title": "She's Dating the Gangster",
+        "author": "Bianca Bernardino (SGWannabe)",
+        "quote": 
+          "Hindi lahat ng nasa isip mo, kaya mong sabihin. At hindi lahat ng nasabi mo, naiintindihan ng iba.", 
+      }, {
+        "title": "She's Dating the Gangster",
+        "author": "Bianca Bernardino (SGWannabe)",
+        "quote":  "Kahit gaano pa katagal, hihintayin kita. Dahil ikaw ang mahal ko."
+      },
+      {
+        "title": "Talk Back and You're Dead",
+        "author": "Alesana Marie",
+        "quote": "Minsan, kahit anong gawin mong paglayo, hinahanap-hanap ka pa rin ng puso ko."
+
+      },{
+        "title": "Talk Back and You're Dead",
+        "author": "Alesana Marie",
+        "quote": "Hindi mo kailangan ng maraming kaibigan. Ang kailangan mo ay totoong mga kaibigan na andyan sa tabi mo sa oras ng kagipitan.",
+      },
+      {
+        "title": "Diary ng Panget",
+        "author": "HaveYouSeenThisGirl",
+        "quote": "Sa bawat pagkadapa, matuto kang bumangon. Sa bawat pagkakamali, matuto kang umayos.",
+         
+      },{
+        "title": "Diary ng Panget",
+        "author": "HaveYouSeenThisGirl",
+        "quote":   "Minsan, kahit gaano mo kamahal ang isang tao, kailangan mong magparaya kung hindi siya para sa'yo."
+      },
+      {
+        "title": "The Bet",
+        "author": "Ilurvbooks",
+        "quote": "Ang tunay na pagmamahal, hindi kailangan ipagsigawan. Sapat na yung alam ninyong dalawa na mahal niyo ang isa't isa."
+      },
+      {
+        "title": "My Husband is a Mafia Boss",
+        "author": "YanaJin",
+        "quote": "Hindi ko man masabi sa'yo ng diretso, pero sa bawat oras na kasama kita, nararamdaman kong mahal kita."
+      },
+      {
+        "title": "He's Into Her",
+        "author": "Maxinejiji",
+        "quote": "Hindi madali ang magmahal, lalo na kung hindi kayo ang tinadhana para sa isa't isa."
+      },
+      {
+        "title": "Every Beast Needs A Beauty",
+        "author": "Jonaxx",
+        "quote": "Sa pagmamahal, hindi lahat ng gusto mo makukuha mo. Minsan, kailangan mong tanggapin na may mga bagay na hindi para sa'yo."
+      },
+      {
+        "title": "The Four Bad Boys and Me",
+        "author": "Blue_Maiden",
+        "quote": "May mga pagkakataon na kahit anong pilit mong ipaglaban ang pagmamahal, kailangan mo ring isuko kung ito na ang tama."
+      }
+    ];
+  
+      for(const obj of qoutes){
+        document.getElementById("qoutelist").innerHTML += `  <div id="qoutebox">
+            
+              <h3>  ${obj.title} by ${obj.author} </h3>
+                <br>
+             <p> ${obj.quote} </p>
+        </div>`;
+
+      }
+
+
+
+
+
+</script>
+
+</body>
+</html>
